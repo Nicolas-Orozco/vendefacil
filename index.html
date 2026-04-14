@@ -1,5 +1,94 @@
+<html>
 <head>
-  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+  background-color: #0f0f11;
+  color: white;
+  font-family: Arial;
+  padding: 30px;
+}
+
+.titulo {
+  color: #00c87a;
+  font-size: 32px;
+}
+
+.subtitulo {
+  color: #7a9ccc;
+}
+
+.metricas {
+  display: flex;
+  gap: 16px;
+}
+
+.tarjeta {
+  background-color: #222228;
+  padding: 20px;
+  border-radius: 10px;
+  width: 180px;
+  text-align: center;
+}
+
+.tarjeta h2 {
+  color: #00c87a;
+  font-size: 36px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 500px;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #222228;
+  color: #7a9ccc;
+}
+
+.boton-verde {
+  background-color: #00c87a;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.boton-naranja {
+  background-color: #ff6b35;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#mensaje {
+  color: #00c87a;
+  margin-top: 16px;
+}
+nav {
+  background-color: #222228;
+  padding: 14px 20px;
+  margin-bottom: 24px;
+}
+
+nav a {
+  color: #7a9ccc;
+  text-decoration: none;
+  margin-right: 16px;
+}
+  </style>
 </head>
 <nav>
   <a href="#">Inicio</a>
@@ -68,3 +157,4 @@
 <button class="boton-naranja">⚙️ Configurar automatizaciones</button>
 
 <p id="mensaje"></p>
+</html>
